@@ -88,7 +88,6 @@ class ActivityRecordViewSet(viewsets.ModelViewSet):
     serializer_class = ActivityRecordSerializer
     permission_classes = [AllowAny] # Using simulated cookie login
 
-    def get_queryset(self):
     def get_base_queryset(self):
         """Returns the base queryset restricted by tenant access rules without applying filters."""
         tenant_param = self.request.query_params.get('tenant_id')
