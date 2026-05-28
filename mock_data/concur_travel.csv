@@ -1,0 +1,6 @@
+Employee_ID,Segment_Departure_Airport,Segment_Arrival_Airport,Cabin_Class,Distance_km,Hotel_Room_Nights
+EMP-0041,JFK,LHR,ECONOMY,,0
+EMP-0041,CDG,SIN,BUSINESS,,0
+EMP-0881,SFO,HND,PREM_ECONOMY,8200.00,0
+EMP-0994,JFK,LHR,BUSINESS,,5
+EMP-0041,CDG,,ECONOMY,,0

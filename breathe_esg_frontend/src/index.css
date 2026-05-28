@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-[#F9FAFB] text-gray-900 font-sans antialiased;
+  }
+}
+
+/* Tabular Numbers for Perfect Column Decimal Point Alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Custom Slim Scrollbars for Professional Grid Spacing */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Table grid borders and custom corporate overlays */
+.grid-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.grid-table th {
+  border-bottom: 2px solid #e5e7eb;
+}
+.grid-table td {
+  border-bottom: 1px solid #f3f4f6;
+}
